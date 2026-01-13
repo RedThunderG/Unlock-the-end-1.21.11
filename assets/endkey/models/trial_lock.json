@@ -1,0 +1,6 @@
+{
+    "parent": "endkey:lock_template",
+    "textures": {
+        "texture": "endkey:item/trial_lock"
+    }
+}

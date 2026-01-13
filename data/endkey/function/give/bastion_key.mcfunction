@@ -1,0 +1,1 @@
+give @s minecraft:trial_key[item_model="endkey:bastion_key",item_name={text:"Gilded Key"},damage_resistant={types:"#minecraft:is_fire"}]
