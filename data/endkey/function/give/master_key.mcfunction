@@ -1,0 +1,1 @@
+give @s minecraft:trial_key[item_model="endkey:master_key",item_name={text:"Master Key"}]

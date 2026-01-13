@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "cases": [
+      {
+        "when": "endkey.frame",
+        "model": {
+          "type": "minecraft:model",
+          "model": "endkey:bastion_frame"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "endkey:bastion_lock"
+    }
+  }
+}

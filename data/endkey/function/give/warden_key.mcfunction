@@ -1,0 +1,1 @@
+give @s minecraft:trial_key[item_model="endkey:warden_key",item_name={text:"Ancient Key"}]

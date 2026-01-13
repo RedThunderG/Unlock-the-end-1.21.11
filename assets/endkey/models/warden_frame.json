@@ -1,0 +1,6 @@
+{
+    "parent": "endkey:frame_template",
+    "textures": {
+        "texture": "endkey:item/warden_lock"
+    }
+}
