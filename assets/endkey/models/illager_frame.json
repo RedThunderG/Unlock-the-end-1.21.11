@@ -1,6 +1,0 @@
-{
-    "parent": "endkey:frame_template",
-    "textures": {
-        "texture": "endkey:item/illager_lock"
-    }
-}
