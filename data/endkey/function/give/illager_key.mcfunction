@@ -1,1 +1,0 @@
-give @s minecraft:trial_key[item_model="endkey:illager_key",item_name={text:"Woodland Key"}]
