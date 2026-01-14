@@ -1,6 +1,7 @@
 {
   "pack": {
-    "pack_format": 94.1,
-    "description": "Unlock the End Data Pack"
+    "description": "Collect keys to enter The End\n§bMade By llARKKll",
+    "min_format": 75,
+    "max_format": 94.1
   }
 }
