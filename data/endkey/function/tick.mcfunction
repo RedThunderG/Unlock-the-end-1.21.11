@@ -1,6 +1,5 @@
 # replace silverfish spawner with command block that prepares the room
-# We use SpawnRange:4s (default) to detect fresh spawners, then change it in prep.
-execute at @a[predicate=endkey:other_tick] run fill ~32 ~16 ~32 ~-32 ~-16 ~-32 minecraft:command_block{Command:"function endkey:room/prep",auto:1b} replace minecraft:spawner{SpawnData:{entity:{id:"minecraft:silverfish"}},SpawnRange:4s}
+execute at @a[predicate=endkey:other_tick] run fill ~32 ~16 ~32 ~-32 ~-16 ~-32 minecraft:command_block{Command:"function endkey:room/prep",auto:1b} replace minecraft:spawner{SpawnData:{entity:{id:"minecraft:silverfish"}},MaxSpawnDelay:800s}
 
 # tick keyhole interactions
 execute as @e[tag=endkey.lock] run function endkey:lock/tick
