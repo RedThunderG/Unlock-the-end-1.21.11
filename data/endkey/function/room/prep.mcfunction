@@ -1,6 +1,5 @@
 # replace spawner with a spawner with different data so it is no longer detectable
-# We set SpawnRange to 0s so the tick function doesn't detect it again (it looks for 4s).
-setblock ~ ~ ~ spawner{SpawnData:{entity:{id:"minecraft:silverfish"}},SpawnRange:0s}
+setblock ~ ~ ~ spawner{SpawnData:{entity:{id:"minecraft:silverfish"}},MaxSpawnDelay:799s}
 
 # detect end portal location and create room
 execute if block ~2 ~ ~ minecraft:end_portal_frame positioned ~4 ~ ~ run return run function endkey:room/create
