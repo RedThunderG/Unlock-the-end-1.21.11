@@ -9,4 +9,4 @@ data modify entity @n[tag=endkey.lock.display] item.components."minecraft:custom
 playsound minecraft:block.vault.open_shutter block @a ~ ~1 ~ 1 0.9
 playsound minecraft:block.end_portal.spawn block @a ~ ~1 ~ 0.1 2
 
-particle minecraft:flash ~ ~ ~
+particle flash{color:[1.000,0.980,0.980,1.00]} ~ ~ ~ 0 0 0 0 0 normal
